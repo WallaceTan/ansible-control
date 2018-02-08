@@ -12,7 +12,6 @@ RUN useradd ansible && \
 RUN echo -e '[local]\nlocalhost' > /etc/ansible/hosts
 RUN pip install --upgrade pip awscli boto boto3
 
-ENV ANSIBLE_HOST_KEY_CHECKING=False
 ENV TZ=Asia/Singapore
 
 # tail is running in the foreground to keep container running
