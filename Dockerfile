@@ -15,6 +15,7 @@ RUN pip install --upgrade pip awscli boto boto3
 
 ADD VERSION .
 
+ENV ANSIBLE_VERSION 2.4.2.0
 ENV TZ=Asia/Singapore
 
 # tail is running in the foreground to keep container running
