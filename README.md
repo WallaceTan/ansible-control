@@ -3,4 +3,5 @@
 ## Build docker base image
 ```
 docker build -t ansible-control .
+docker build -t ansible-control:2.5.0 .
 ```
