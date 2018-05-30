@@ -14,3 +14,11 @@ git tag -a "2.5" -m "Ansible version 2.5"
 git push
 git push --tags
 ```
+
+```
+docker build -t ansible-control:2.5.3 -t ansible-control:latest .
+git add Dockerfile README.md VERSION requirements.txt
+git tag -a "2.5.3" -m "Ansible version 2.5.3"
+git push
+git push --tags
+```

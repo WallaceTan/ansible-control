@@ -18,7 +18,7 @@ RUN useradd ansible && \
 
 ADD VERSION .
 
-ENV ANSIBLE_VERSION 2.5
+ENV ANSIBLE_VERSION 2.5.3
 ENV TZ=Asia/Singapore
 
 # tail is running in the foreground to keep container running
